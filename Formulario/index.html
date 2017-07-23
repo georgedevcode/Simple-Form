@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Formulario</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <form action="" class="form" id="form" name='form'>
+      <div class="container-inputs">
+        <input type="text" name="userName" placeholder="Name">
+        <input type="text" name="email" placeholder="Email">
+
+        <div class="gender">
+          <input type="radio" name="gender" id="male" value="male" class="male">
+          <label for="male" class="label-radio">Male</label>
+          <input type="radio" name="gender" id="female" value="female" class="female">
+          <label for="female" class="label-radio">Female</label>
+        </div>
+
+          <div class="terms">
+            <input type="checkbox" name='terms' id="terms">
+            <label for="terms">Terms and Conditions</label>
+          </div>
+          <ul class="error" id="error"></ul>
+      </div>
+      <input type="submit" class="btn" value="Register">
+    </form>
+  </div>
+  <script src="js/form.js"></script>
+</body>
+</html>
